@@ -11,5 +11,5 @@ BIG WORDS:
     
 #### Objects in JavaScript are just name: value pairs
 
-### Execution context (scope) has 2 phases when being created. The first one is called creation phase or setup phasethis is where the global (window) object is created, 'this', and Outer Environment. It is where Hoisting takes place. Variable are setup and assigned to undefined, functions are also setup.
+#### Execution context (scope) has 2 phases when being created. The first one is called creation phase or setup phasethis is where the global (window) object is created, 'this', and Outer Environment. It is where Hoisting takes place. Variable are setup and assigned to undefined, functions are also setup at this time.
 

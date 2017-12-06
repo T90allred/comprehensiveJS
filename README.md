@@ -13,3 +13,6 @@ There are many different lexical environments. Which one is running is managed b
 
 #### Execution context (scope) has 2 phases when being created. The first one is called creation phase or setup phasethis is where the global (window) object is created, 'this', and Outer Environment. It is where Hoisting takes place. Variable are setup and assigned to undefined, functions are also setup at this time.
 
+#### The Second phase in Execution Context is the Execution phase, this is where it executes the code you have written line by line.
+
+

@@ -15,4 +15,10 @@ There are many different lexical environments. Which one is running is managed b
 
 #### The Second phase in Execution Context is the Execution phase, this is where it executes the code you have written line by line.
 
+#### JS behaves in a single threaded manner, meaning one command is run at a time.
+
+#### JS is also synchronous means the code is executed one at a time and in order
+
+#### In JS there is a difference between func() and just func. func() invokes the function (it gets ran) and func just references the function
+
 

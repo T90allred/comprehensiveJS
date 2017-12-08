@@ -59,6 +59,7 @@ In this snippet of code myVar will be 1.
 These two functions return different values due to where the code sits lexically. In the first snippet `b` is defined inside of `a` so when `b` is unable to find `myVar` it steps out one execution context to `a` where it is defined and logs 2 to the console. The second snippet of code logs 1 becaue both `a` and `b` are defined lexically in the global execution context so when `b` cant find `myVar` it steps out to the global execution context looking for `myVar` and finds it and the value it holds is 1.
 
 #### ES6 `let`
+
 `let` is used for block scoping. Ive heard some people say that all `var`'s should be replaced with `let` or `const` but I dont have an oppinion on this yet so I will just demo `let`. Before ES6 we used `var` to define variables when when you defined a variable inside block scope like a `for` loop or `if` statement it would assign your variable to the global scope and it would be accessable globally after the loop or conditional see below.
 ```javascript
 if (true) {
@@ -75,5 +76,6 @@ if (true) {
 
 console.log(x);    // ReferenceError
 ```
+#### Asynchronous: More than one at a time
 
 

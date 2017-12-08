@@ -33,6 +33,7 @@ The following code's myVar will be 2.
 	function a() {
 	    function b() {
 		console.log(myVar);
+		//no myVar here...
 	    }
 	    myVar = 2;
 	    b();
@@ -41,7 +42,7 @@ The following code's myVar will be 2.
 	var myVar = 1;
 	a(); 
 ```
-In this snipet of code myVar will be 1.
+In this snippet of code myVar will be 1.
 ```javascript
 	function b() {
 		console.log(myVar);
@@ -55,3 +56,4 @@ In this snipet of code myVar will be 1.
 	var myVar = 1;
 	a();
 ```
+These two functions return different values due to where the code sits lexically. In the first snippet `b` is defined inside of `a` so when `b` is unable to find `myVar` it steps out one execution context to `a` where it is defined and logs 2 to the console. The second snippet of code logs 1 becaue both `a` and `b` are defined lexically in the global execution context so when `b` cant find `myVar` it steps out to the global execution context looking for `myVar` and finds it and the value it holds is 1.

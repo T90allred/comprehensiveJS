@@ -23,6 +23,8 @@ There are many different lexical environments. Which one is running is managed b
 
 #### Each time a function is called a new execution context (scope) is created and push to the stack, when it is done running that function it is then popped off the stack
 
+#### Variable Environment: This is simply where the variables live. Globally, function scope, or even block level scope with ES6 `let`
+
 
 
 

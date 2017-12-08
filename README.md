@@ -27,16 +27,31 @@ There are many different lexical environments. Which one is running is managed b
 
 #### Scope Chain: This deals with where function calls sit lexically and how they have references to out execution contexts.
 
-The following code's myVar will be 1.
+The following code's myVar will be 2.
 
-` function a() {
-    
-    function b() {
-        console.log(myVar)
-    }
-    
-	b()
-}
+```javascript
+	function a() {
+	    function b() {
+		console.log(myVar);
+	    }
+	    myVar = 2;
+	    b();
+	}
 
-var myVar = 1
-a() `
+	var myVar = 1;
+	a(); 
+```
+In this snipet of code myVar will be 1.
+```javascript
+	function b() {
+		console.log(myVar);
+	}
+
+	function a() {
+		var myVar = 2;
+		b();
+	}
+
+	var myVar = 1;
+	a();
+```

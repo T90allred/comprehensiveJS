@@ -25,6 +25,18 @@ There are many different lexical environments. Which one is running is managed b
 
 #### Variable Environment: This is simply where the variables live. Globally, function scope, or even block level scope with ES6 `let`
 
+#### Scope Chain: This deals with where function calls sit lexically and how they have references to out execution contexts.
 
+The following code's myVar will be 1.
 
+` function a() {
+    
+    function b() {
+        console.log(myVar)
+    }
+    
+	b()
+}
 
+var myVar = 1
+a() `

@@ -11,17 +11,17 @@ There are many different lexical environments. Which one is running is managed b
     
 #### Objects in JavaScript are just name: value pairs
 
-#### Execution context (scope) has 2 phases when being created. The first one is called creation phase or setup phasethis is where the global (window) object is created, 'this', and Outer Environment. It is where Hoisting takes place. Variable are setup and assigned to undefined, functions are also setup at this time.
+#### Execution context (scope) has 2 phases when being created. The first one is called creation phase or setup phasethis is where the global (window) object is created, 'this', and Outer Environment. It is where Hoisting takes place. Variables are setup and assigned to undefined, functions are also setup at this time.
 
 #### The Second phase in Execution Context is the Execution phase, this is where it executes the code you have written line by line.
 
 #### JS behaves in a single threaded manner, meaning one command is run at a time.
 
-#### JS is also synchronous means the code is executed one at a time and in order
+#### JS is also synchronous, meaning the code is executed one at a time and in order
 
 #### In JS there is a difference between `func()` and just `func`. `func()` invokes the function (it gets ran) and `func` just references the function
 
-#### Each time a function is called a new execution context (scope) is created and push to the stack, when it is done running that function it is then popped off the stack
+#### Each time a function is called, a new execution context (scope) is created and pushed to the stack, when it is done running that function it is then popped off the stack
 
 #### Variable Environment: This is simply where the variables live. Globally, function scope, or even block level scope with ES6 `let`
 
@@ -60,7 +60,7 @@ These two functions return different values due to where the code sits lexically
 
 #### ES6 `let`
 
-`let` is used for block scoping. Ive heard some people say that all `var`'s should be replaced with `let` or `const` but I dont have an oppinion on this yet so I will just demo `let`. Before ES6 we used `var` to define variables when when you defined a variable inside block scope like a `for` loop or `if` statement it would assign your variable to the global scope and it would be accessable globally after the loop or conditional see below.
+`let` is used for block scoping. I've heard some people say that all `var`'s should be replaced with `let` or `const` but I dont have an oppinion on this yet so I will just demo `let`. Before ES6 we used `var` to define variables inside block scope like a `for` loop or `if` statement it would assign your variable to the global scope and it would be accessable globally after the loop or conditional see below.
 ```javascript
 if (true) {
     var i = 1;

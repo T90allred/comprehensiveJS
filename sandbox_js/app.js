@@ -26,4 +26,5 @@ const person = {
 }
 
 person.age += 1;  //valid
-person = 'me'; // not valid
+//person = 'me'; // not valid
+console.warn(person);

@@ -79,3 +79,16 @@ const explicitConversion = 'This is where you use a method like String(), or Num
     Math Object & Numbers
 */
 
+
+
+/*
+    Object Literals
+*/
+
+const mathObject = 'these are name value pairs ';
+
+const example = {
+    name: value,
+    name1: value1,
+    name2: value2
+}

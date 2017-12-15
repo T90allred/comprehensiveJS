@@ -78,6 +78,7 @@ const explicitConversion = 'This is where you use a method like String(), or Num
 /*
     Math Object & Numbers
 */
+// JS support + - * / % operations as well as things like ++ -- += -+ *= /=
 
 const mathObject = 'a global object with a bunch of math methods in it';
 

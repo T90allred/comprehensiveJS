@@ -79,13 +79,15 @@ const explicitConversion = 'This is where you use a method like String(), or Num
     Math Object & Numbers
 */
 
+const mathObject = 'a global object with a bunch of math methods in it';
 
+Math.round();
 
 /*
     Object Literals
 */
 
-const mathObject = 'these are name value pairs ';
+const objecLiteral = 'these are name value pairs ';
 
 const example = {
     name: value,

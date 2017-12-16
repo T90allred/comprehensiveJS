@@ -99,9 +99,9 @@ const example = {
 
 // You access object values in 2 ways dot notation and bracket notation
 
-// dot notation is used for values that also qualify as variable name, they start with a-z, $ or _ and have no spaces
+// Dot notation is used for values that also qualify as variable name, they start with a-z, $ or _ and have no spaces
 example.name;
 
-// bracket notation is used for add values like the one below that has a space in the name
+// Bracket notation is used for add values like the one below that has a space in the name
 console.log(example['odd name']);
 

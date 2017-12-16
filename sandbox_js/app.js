@@ -97,7 +97,7 @@ const example = {
     name2: true
 }
 
-// You access object values in 2 ways dot notation and bracket notation
+// You access object values in 2 ways, dot notation and bracket notation
 
 // Dot notation is used for values that also qualify as variable name, they start with a-z, $ or _ and have no spaces
 example.name;

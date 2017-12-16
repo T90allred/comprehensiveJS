@@ -43,11 +43,11 @@ const referenceType = 'objects that are stored on the heap, accessed by referenc
 
 const primitiveDataTypes = [
     'string',
-    number,
+    5,      // numbder
     true,   // boolean
     null,
     undefined,
-    symbol
+    'symbol'
 ]
 // examples
 const stringVal = 'String here';
@@ -92,7 +92,16 @@ Math.round(); // helps you round down to set amount.
 const objecLiteral = 'these are name value pairs ';
 
 const example = {
-    name: value,
-    name1: value1,
-    name2: value2
+    name: 1,
+    'odd name': 'value here',
+    name2: true
 }
+
+// You access object values in 2 ways dot notation and bracket notation
+
+// dot notation is used for values that also qualify as variable name, they start with a-z, $ or _ and have no spaces
+example.name;
+
+// bracket notation is used for add values like the one below that has a space in the name
+console.log(example['odd name']);
+

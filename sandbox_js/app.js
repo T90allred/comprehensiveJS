@@ -82,7 +82,8 @@ const explicitConversion = 'This is where you use a method like String(), or Num
 
 const mathObject = 'a global object with a bunch of math methods in it';
 
-Math.round();
+// example
+Math.round(); // helps you round down to set amount. 
 
 /*
     Object Literals

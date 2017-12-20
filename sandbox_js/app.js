@@ -30,8 +30,8 @@ const person = {
     age: 27
 }
 
-person.age += 1;  //valid
-//person = 'me'; // not valid
+person.age += 1;  //valid because the type is unchanged from being an object
+//person = 'me'; // not valid because the type is changed from being an object to a string
 console.warn(person);
 
 /*

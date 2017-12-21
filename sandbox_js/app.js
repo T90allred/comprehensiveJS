@@ -105,3 +105,13 @@ example.name;
 // Bracket notation is used for add values like the one below that has a space in the name
 console.log(example['odd name']);
 
+/*
+    Date Object 
+*/
+// The date object is globally defined like console and has many methods we can use to our advantage.
+
+const dateValue = new Date();
+let birthday = new Date('6/4/1992');
+dateValue.getDate();
+
+console.log(dateValue);

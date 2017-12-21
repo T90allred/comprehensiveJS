@@ -18,8 +18,8 @@ console.timeEnd('test');
 */
 
 // let is like var in the sense that it can be changed, but it is block scoped, vars are function scoped
-// const is where you dont want a value to change, note that with objects, functions, and arrays you can change data
-// inside these data structures but not the type its self. 
+// const is where you dont want a value to change, note that with objects, functions, and arrays you can 
+// change data inside these data structures but not the type its self. 
 
 var lastName = 'Allred';
 let firstName = 'Derek';
@@ -78,7 +78,7 @@ const explicitConversion = 'This is where you use a method like String(), or Num
 /*
     Math Object & Numbers
 */
-// JS support + - * / % operations as well as things like ++ -- += -+ *= /=
+// JS supports + - * / % operations as well as things like ++ -- += -+ *= /=
 
 const mathObject = 'a global object with a bunch of math methods in it';
 
@@ -89,7 +89,7 @@ Math.round(); // helps you round down to set amount.
     Object Literals
 */
 
-const objecLiteral = 'these are name value pairs ';
+const objectLiteral = 'these are name value pairs ';
 
 const example = {
     name: 1,

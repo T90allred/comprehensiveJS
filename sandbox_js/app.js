@@ -115,3 +115,4 @@ let birthday = new Date('6/4/1992');
 dateValue.getDate();
 
 console.log(dateValue);
+

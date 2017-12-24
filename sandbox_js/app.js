@@ -113,6 +113,7 @@ console.log(example['odd name']);
 const dateValue = new Date();
 let birthday = new Date('6/4/1992');
 dateValue.getDate();
+dateValue.getDay();
 
 console.log(dateValue);
 

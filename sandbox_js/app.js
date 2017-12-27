@@ -108,6 +108,7 @@ console.log(example['odd name']);
 /*
     Date Object 
 */
+
 // The date object is globally defined like console and has many methods we can use to our advantage.
 
 const dateValue = new Date();

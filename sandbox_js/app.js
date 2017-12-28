@@ -112,7 +112,7 @@ console.log(example['odd name']);
 // The date object is globally defined like console and has many methods we can use to our advantage.
 
 const dateValue = new Date();
-let birthday = new Date('6/4/1992');
+let birthday = new Date('6/4/1990');
 dateValue.getDate();
 dateValue.getDay();
 

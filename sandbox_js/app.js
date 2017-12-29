@@ -125,6 +125,8 @@ console.log(dateValue);
 // Used to evaluate a condition then do something based on it
 // Comparison operators ==, ===, !=, !==
 
+let ID = 1;
+
 if(typeof ID === 'undefined') {
     // do something if ID = undefined
 } else if(typeof ID === 'number') {
@@ -139,4 +141,26 @@ if(ID < 0 || ID > 100) {
     //do something
 } else if (ID > 10 && ID < 20) {
     //do something
+}
+
+// TERNARY OPERATOR short hand conditionals 
+
+console.log(ID === 100 ? 'corrent' : 'incorrenct');
+
+// const terFunc1 = () => {
+//     console.log('terFunc1');
+// }
+
+// const terFunc2 = () => {
+//     console.log('terFunc2');
+// }
+
+ID === 4 ? terFunc1() : terFunc2();
+
+function terFunc1() {
+    console.log('terFunc1');
+}
+
+function terFunc2() {
+    console.log('terFunc2');
 }

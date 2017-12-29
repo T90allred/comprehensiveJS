@@ -132,3 +132,11 @@ if(typeof ID === 'undefined') {
 } else {
     // do something if other statements are false
 }
+
+// AND/OR conditionals ||...&&
+// used to check for multiple conditions 
+if(ID < 0 || ID > 100) {
+    //do something
+} else if (ID > 10 && ID < 20) {
+    //do something
+}

@@ -164,3 +164,29 @@ function terFunc1() {
 function terFunc2() {
     console.log('terFunc2');
 }
+
+/*
+    Switch Statments
+*/
+// Switch statemenst are used to determine what to do based on a given value like if statements
+
+const color = 'red';
+
+switch(color){
+    case 'red':
+        //do something if color is red
+        break;
+    case 'green':
+        //do something if color is green
+        break;
+    case 'blue':
+        //do something if color is blue
+        break;
+    default:
+        //do something if color is != to any cases
+        break;
+}
+
+/*
+
+*/

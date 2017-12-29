@@ -121,3 +121,14 @@ console.log(dateValue);
 /*
     Conditional Statements (If Statements)
 */
+
+// Used to evaluate a condition then do something based on it
+// Comparison operators ==, ===, !=, !==
+
+if(typeof ID === 'undefined') {
+    // do something if ID = undefined
+} else if(typeof ID === 'number') {
+    // do something if ID = number
+} else {
+    // do something if other statements are false
+}

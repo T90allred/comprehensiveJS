@@ -188,5 +188,9 @@ switch(color){
 }
 
 /*
-
+    Function Declarations 
 */
+
+function myFunc() {
+    
+}

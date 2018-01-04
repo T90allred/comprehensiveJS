@@ -194,3 +194,6 @@ switch(color){
 function myFunc() {
     return 'This is a return statement';
 }
+
+//Calling a function
+myFunc();

@@ -197,3 +197,10 @@ function myFunc() {
 
 //Calling a function
 myFunc();
+
+//function parameters
+function myFunc2(param) {
+    return param
+}
+
+myFunc2('Test');

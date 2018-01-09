@@ -204,3 +204,12 @@ function myFunc2(param) {
 }
 
 myFunc2('Test');
+
+//default parameters: you can set default parameters in the function definition so if your function is called and no
+// params are passed that are needed in the function you can have defaults available. 
+
+function defaultParams(name = 'Derek', age = 26) {
+    return `${name} is a good developer and is ${age} years old`;
+}
+
+console.log(defaultParams());

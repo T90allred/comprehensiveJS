@@ -215,6 +215,12 @@ function defaultParams(name = 'Derek', age = 26) {
 console.log(defaultParams());
 
 //IIFE
+
+//without IIFE
+function IIFEE() {
+    console.log('IIFEE has run');
+}
+IIFEE();
 // Immidiatly invoked function expressions
 
 (function IIFE(){

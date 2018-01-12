@@ -299,3 +299,13 @@ const names = things.map( thing => {
 console.log(names);
 
 // FORIN
+const user = {
+    firstName: 'Jannet',
+    lastName: 'Smith',
+    age: '45',
+    gender: 'Female'
+}
+
+for(let x in user) {
+    console.log(`${x} ::: ${user[x]}`);
+}

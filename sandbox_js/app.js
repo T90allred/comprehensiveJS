@@ -248,9 +248,10 @@ bigObj.other();
     Loops
 */
 
+// FOR
 for(let i = 0; i < 10; i++) {
     if(i === 3) {
-        console.log('3 is the best');
+        console.log('Three is the best');
         continue; //this skips all code after it in the loop and goes to the next iteration
     }
     if(i === 8){
@@ -260,13 +261,21 @@ for(let i = 0; i < 10; i++) {
     console.log(i);
 }
 
+// WHILE
 let i = 0;
 while(i < 10) {
-    conoel.log(i);
+    console.log(i);
     i++;
 }
 
+// DO WHILE
 do {
     console.log(i);
     i++;
 } while(i < 10);
+
+// FOREACH
+const friends = ['Sam','Derek','Jake','Nate','Chad'];
+friends.forEach( friend => {
+    console.log(friend);
+})

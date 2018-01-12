@@ -243,3 +243,19 @@ bigObj.other = function() {
 bigObj.add();
 bigObj.edit('Person');
 bigObj.other();
+
+/*
+    Loops
+*/
+
+for(let i = 0; i < 10; i++) {
+    if(i === 3) {
+        console.log('3 is the best');
+        continue; //this skips all code after it in the loop and goes to the next iteration
+    }
+    if(i === 8){
+        console.log('Ending the loop early');
+        break; //this breaks out of the loop immidiatly 
+    }
+    console.log(i);
+}

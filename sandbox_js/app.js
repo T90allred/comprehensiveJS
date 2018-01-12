@@ -279,3 +279,23 @@ const friends = ['Sam','Derek','Jake','Nate','Chad'];
 friends.forEach( friend => {
     console.log(friend);
 })
+
+// MAP
+const things = [
+    {id: 234, name: 'paper'},
+    {id: 425, name: 'sink'},
+    {id: 678, name: 'car'},
+    {id: 654, name: 'speaker'},
+    {id: 123, name: 'printer'}
+]
+const ids = things.map( (thing) => {
+    return thing.id;
+});
+console.log(ids);
+
+const names = things.map( thing => {
+    return thing.name;
+});
+console.log(names);
+
+// FORIN

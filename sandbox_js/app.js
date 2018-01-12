@@ -226,3 +226,20 @@ IIFEE();
 (function IIFE(){
     console.log('IIFE has run');
 })();
+
+const bigObj = {
+    add: function() {
+        console.log('Add Todo');
+    },
+    edit: function(thing) {
+        console.log(`${thing} has been edited`);
+    }
+}
+
+bigObj.other = function() {
+    console.log('Other Method');
+}
+
+bigObj.add();
+bigObj.edit('Person');
+bigObj.other();

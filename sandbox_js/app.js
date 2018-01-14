@@ -309,3 +309,9 @@ const user = {
 for(let x in user) {
     console.log(`${x} ::: ${user[x]}`);
 }
+
+/*
+    DOM (Document Object Model)
+*/
+
+var DOM = "A programming interface for HTML and XML documents";

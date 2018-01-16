@@ -315,3 +315,7 @@ for(let x in user) {
 */
 
 var DOM = "A programming interface for HTML and XML documents";
+
+/*
+    DOM Selectors
+*/

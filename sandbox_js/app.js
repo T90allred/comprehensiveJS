@@ -319,3 +319,7 @@ var DOM = "A programming interface for HTML and XML documents";
 /*
     DOM Selectors
 */
+//The global object in the browser is the window object. The window object has a property containing all the 
+//HTML elemets in it, its called document
+
+console.log(document);

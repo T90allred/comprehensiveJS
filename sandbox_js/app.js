@@ -323,3 +323,6 @@ var DOM = "A programming interface for HTML and XML documents";
 //HTML elemets in it, its called document
 
 console.log(document);
+
+// this uses css id's to grab elements off the page and into JS to be played with.
+document.getElementById('ID_HERE');
